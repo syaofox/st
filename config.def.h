@@ -9,8 +9,8 @@ static char *font = "monospace:size=12:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 	"monospace:size=10",
-	"Noto Sans CJK SC:size=10:antialias=true:autohint=true",
-	"DejaVuSansMono Nerd Font:size=10:antialias=true:autohint=true"
+	"Symbols Nerd Font:style=1000-em:size=10:antialias=true:autohint=true",
+	"WenQuanYi Zen Hei Mono:style=Regular:size=10:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
@@ -101,7 +101,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.6, alphaUnfocused = 0.4;
+float alpha = 0.8, alphaUnfocused = 0.4;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
