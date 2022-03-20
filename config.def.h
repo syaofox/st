@@ -5,7 +5,14 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Monospace:pixelsize=12:antialias=true:autohint=true";
+
+static char *font = "Monospace:size=12:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+	"Symbols Nerd Font:style=1000-em:size=12:antialias=true:autohint=true",
+	"WenQuanYi Micro Hei:WenQuanYi Micro Hei:size=12:antialias=true:autohint=true", 
+};
+
 static int borderpx = 2;
 
 /*
