@@ -11,7 +11,10 @@ static char *font = "Monospace:size=12:antialias=true:autohint=true";
 static char *font2[] = {
 	"Symbols Nerd Font:style=1000-em:size=12:antialias=true:autohint=true",
 	"WenQuanYi Micro Hei:WenQuanYi Micro Hei:size=12:antialias=true:autohint=true", 
+	"Symbola:style=Regular:size=12:antialias=true:autohint=true"
+	"Symbola:style=Regular:size=12:antialias=true:autohint=true"
 };
+
 
 static int borderpx = 2;
 
@@ -191,7 +194,11 @@ static uint forcemousemod = ShiftMask;
  * Xresources preferences to load at startup
  */
 ResourcePref resources[] = {
+		{ "alpha",         FLOAT,  &alpha },
 		{ "font",         STRING,  &font },
+		{ "font2",        STRING,  &font2[0] },
+		{ "font3",        STRING,  &font2[1] },
+		{ "font4",        STRING,  &font2[2] },
 		{ "color0",       STRING,  &colorname[0] },
 		{ "color1",       STRING,  &colorname[1] },
 		{ "color2",       STRING,  &colorname[2] },
